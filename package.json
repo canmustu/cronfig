@@ -1,0 +1,12 @@
+{
+  "name": "cronfig",
+  "version": "0.0.1",
+  "description": "cronjob with configuration",
+  "main": "index.js",
+  "scripts": {
+    "index": "node dist/index.js",
+    "test": "node dist/test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
