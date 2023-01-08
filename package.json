@@ -1,5 +1,5 @@
 {
-  "name": "cronfig",
+  "name": "@canmustu/cronfig",
   "version": "0.0.1",
   "description": "cronjob with configuration",
   "main": "index.js",
