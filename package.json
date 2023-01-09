@@ -2,11 +2,23 @@
   "name": "node-cronfig",
   "version": "0.0.1",
   "description": "cronjob with configuration",
-  "main": "index.js",
-  "scripts": {
-    "index": "node dist/index.js",
-    "test": "node dist/test.js"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/canmustu/cronfig"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "author": {
+    "name": "Seref Can Mustu",
+    "email": "mustuserefcan@gmail.com"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "cronfig": "./dist/cli.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  },
+  "dependencies": {
+    "stdio": "^2.1.1"
+  }
 }
